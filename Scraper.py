@@ -11,7 +11,6 @@ pin.click()
 
 search = driver.find_element_by_id("mat-input-0")
 search.send_keys("400018")
-#comment
 search_btn = driver.find_element_by_class_name("pin-search-btn")
 search_btn.send_keys(Keys.RETURN)
 
